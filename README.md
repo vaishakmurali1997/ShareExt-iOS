@@ -11,7 +11,8 @@ Share URL to your app using share extension feature.
 4. Now Replace your shareViewController. 
 5. Inside your info.plist you have to replace this code. 
     
-    ```<key>NSExtensionJavaScriptPreprocessingFile</key>
+    ```
+    <key>NSExtensionJavaScriptPreprocessingFile</key>
          <string>Action</string>
          <key>NSExtensionActivationRule</key>
          <dict>
@@ -20,6 +21,7 @@ Share URL to your app using share extension feature.
             <key>NSExtensionActivationSupportsWebURLWithMaxCount</key>
             <integer>1</integer>
          </dict>
-      </dict>```
+      </dict>
+      ```
       
 That's it! 
