@@ -9,7 +9,7 @@ Share URL to your app using share extension feature.
 2. Create an App group. Make sure your share extension and your main app has the same app group selected. 
 3. Add Action.js file in your share extension folder.
 4. Now Replace your shareViewController. 
-5. Inside your info.plist you have to replace this code. 
+5. Inside your info.plist you have to replace this code (inside share extension). 
     
     ```
     <key>NSExtensionAttributes</key>
