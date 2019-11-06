@@ -3,7 +3,7 @@ Share Extension for iOS.
 
 Share URL to your app using share extension feature. 
 
-STEPS FOR RUNNING SHARE EXTENSION in your project.  
+# Steps for running share extension in your xcode project.  
 
 1. first you have to add share extention by clicking on the plus button in xcode project (in Project & Targets tab). 
 2. Create an App group. Make sure your share extension and your main app has the same app group selected. 
