@@ -12,7 +12,9 @@ Share URL to your app using share extension feature.
 5. Inside your info.plist you have to replace this code. 
     
     ```
-    <key>NSExtensionJavaScriptPreprocessingFile</key>
+    <key>NSExtensionAttributes</key>
+      <dict>
+         <key>NSExtensionJavaScriptPreprocessingFile</key>
          <string>Action</string>
          <key>NSExtensionActivationRule</key>
          <dict>
